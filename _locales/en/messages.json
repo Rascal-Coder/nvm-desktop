@@ -1,0 +1,374 @@
+{
+  "About": {
+    "message": "About",
+    "description": "The text of the About"
+  },
+  "Services": {
+    "message": "Services",
+    "description": "The text of the Services"
+  },
+  "Hide": {
+    "message": "Hide",
+    "description": "The text of the Hide"
+  },
+  "Hide-Others": {
+    "message": "Hide Others",
+    "description": "The text of the Hide-Others"
+  },
+  "Show-All": {
+    "message": "Show All",
+    "description": "The text of the Show-All"
+  },
+  "Quit": {
+    "message": "Quit",
+    "description": "The text of the Quit"
+  },
+  "Edit": {
+    "message": "Edit",
+    "description": "The text of the Edit"
+  },
+  "Undo": {
+    "message": "Undo",
+    "description": "The text of the Undo"
+  },
+  "Redo": {
+    "message": "Redo",
+    "description": "The text of the Redo"
+  },
+  "Cut": {
+    "message": "Cut",
+    "description": "The text of the Cut"
+  },
+  "Copy": {
+    "message": "Copy",
+    "description": "The text of the Copy"
+  },
+  "Paste": {
+    "message": "Paste",
+    "description": "The text of the Paste"
+  },
+  "Select-All": {
+    "message": "Select All",
+    "description": "The text of the Select-All"
+  },
+  "Window": {
+    "message": "Window",
+    "description": "The text of the Window"
+  },
+  "Minimize": {
+    "message": "Minimize",
+    "description": "The text of the Minimize"
+  },
+  "Close": {
+    "message": "Close",
+    "description": "The text of the Close"
+  },
+  "Help": {
+    "message": "Help",
+    "description": "The text of the Help"
+  },
+  "Learn-More": {
+    "message": "Learn More",
+    "description": "The text of the Learn-More"
+  },
+  "Documentation": {
+    "message": "Documentation",
+    "description": "The text of the Documentation"
+  },
+  "Search-Issues": {
+    "message": "Search Issues",
+    "description": "The text of the Search-Issues"
+  },
+  "Setting": {
+    "message": "Setting",
+    "description": "The text of the Setting"
+  },
+  "Tip": {
+    "message": "Tip",
+    "description": "The text of the Tip"
+  },
+  "OK": {
+    "message": "OK",
+    "description": "The text of the OK"
+  },
+  "Cancel": {
+    "message": "Cancel",
+    "description": "The text of the OK"
+  },
+  "Language": {
+    "message": "Language",
+    "description": "The text of the Language"
+  },
+  "System-Default": {
+    "message": "System Default",
+    "description": "The text of the System Default"
+  },
+  "Light": {
+    "message": "Light",
+    "description": "The text of the Light"
+  },
+  "Dark": {
+    "message": "Dark",
+    "description": "The text of the Dark"
+  },
+  "Themes": {
+    "message": "Themes",
+    "description": "The text of the Themes"
+  },
+  "Mirror-Url": {
+    "message": "Mirror Url",
+    "description": "The text of the Mirror Url"
+  },
+  "For-example": {
+    "message": "For example",
+    "description": "The text of the For example"
+  },
+  "Local-Refresh": {
+    "message": "Local Refresh",
+    "description": "The text of the Local Refresh"
+  },
+  "Remote-Refresh": {
+    "message": "Remote Refresh",
+    "description": "The text of the Remote Refresh"
+  },
+  "Refresh": {
+    "message": "Refresh",
+    "description": "The text of the Refresh"
+  },
+  "Search": {
+    "message": "Search",
+    "description": "The text of the Search"
+  },
+  "Reset": {
+    "message": "Reset",
+    "description": "The text of the Reset"
+  },
+  "Install": {
+    "message": "Install",
+    "description": "The text of the Install"
+  },
+  "Installed": {
+    "message": "Installed",
+    "description": "The text of the Installed"
+  },
+  "Not-Installed": {
+    "message": "Not Installed",
+    "description": "The text of the Not Installed"
+  },
+  "Supported": {
+    "message": "Supported",
+    "description": "The text of the Supported"
+  },
+  "Not-Supported": {
+    "message": "Not Supported",
+    "description": "The text of the Not Supported"
+  },
+  "Current": {
+    "message": "Current",
+    "description": "The text of the Current"
+  },
+  "Version": {
+    "message": "Version",
+    "description": "The text of the Version"
+  },
+  "Release-Date": {
+    "message": "Release Date",
+    "description": "The text of the Release Date"
+  },
+  "Status": {
+    "message": "Status",
+    "description": "The text of the Status"
+  },
+  "Operation": {
+    "message": "Operation",
+    "description": "The text of the Operation"
+  },
+  "More": {
+    "message": "More",
+    "description": "The text of the More"
+  },
+  "Apply": {
+    "message": "Apply",
+    "description": "The text of the Apply"
+  },
+  "Uninstall": {
+    "message": "Uninstall",
+    "description": "The text of the Uninstall"
+  },
+  "latest": {
+    "message": "latest",
+    "description": "The text of the latest"
+  },
+  "Installed-Versions": {
+    "message": "Installed Versions",
+    "description": "The text of the Installed Versions"
+  },
+  "All-Node-Versions": {
+    "message": "All Node Versions",
+    "description": "The text of the All Node Versions"
+  },
+  "Versions": {
+    "message": "Versions",
+    "description": "The text of the Versions"
+  },
+  "Finally": {
+    "message": "Finally",
+    "description": "The text of the Finally"
+  },
+  "Welcome": {
+    "message": "Welcome",
+    "description": "The text of the Welcome"
+  },
+  "Welcome-to": {
+    "message": "Welcome to the",
+    "description": "The text of the Welcome-to"
+  },
+  "App-Desc": {
+    "message": "A desktop application to manage multiple active node.js versions.",
+    "description": "The text of the Welcome-to"
+  },
+  "Tip-Content": {
+    "message": "Now add these lines to your ~/.bashrc, ~/.profile, or ~/.zshrc file to have it automatically sourced upon login: (you may have to add to more than one of the above files)",
+    "description": "The text of the Tip-Content"
+  },
+  "Restart-Terminal": {
+    "message": "Now using node $version$",
+    "description": "The text of the Restart-Terminal"
+  },
+  "Tip-Finally": {
+    "message": "For more information about this issue and possible workarounds, please",
+    "description": "The text of the Tip-Finally"
+  },
+  "Refer": {
+    "message": "refer here.",
+    "description": "The text of the Refer"
+  },
+  "Bles": {
+    "message": "Have a nice day!",
+    "description": "The text of the Refer"
+  },
+  "Set-by": {
+    "message": "Set by",
+    "description": "The text of the Set-by"
+  },
+  "Retry": {
+    "message": "Retry",
+    "description": "The text of the Retry"
+  },
+  "Start-Install": {
+    "message": "Start Install",
+    "description": "The text of the Start-Install"
+  },
+  "Version-Manager": {
+    "message": "Version Manager",
+    "description": "The text of the Version-Manager"
+  },
+  "Install-Tip": {
+    "message": "Click the Start Installation button to start the installation.",
+    "description": "The text of the Install-Tip"
+  },
+  "Check-Update": {
+    "message": "Check Update",
+    "description": "The text of the Check-Update"
+  },
+  "Download-Progress": {
+    "message": "Download Progress",
+    "description": "The text of the Progress"
+  },
+  "Update-Info": {
+    "message": "Update Info",
+    "description": "The text of the Update-Info"
+  },
+  "Upgrade": {
+    "message": "Upgrade",
+    "description": "The text of the Upgrade"
+  },
+  "Quit-And-Install": {
+    "message": "Quit And Install",
+    "description": "The text of the Quit-And-Install"
+  },
+  "Current-Version": {
+    "message": "Current Version",
+    "description": "The text of the Current-Version"
+  },
+  "New-Version": {
+    "message": "New Version",
+    "description": "The text of the New-Version"
+  },
+  "Release-Name": {
+    "message": "Release Name",
+    "description": "The text of the Release-Name"
+  },
+  "Upgrade-Tip": {
+    "message": "Quit the app and install to upgrade to the latest version?",
+    "description": "The text of the Upgrade-Tip"
+  },
+  "Up-to-date": {
+    "message": "You’re up to date!",
+    "description": "The text of the Up-to-date"
+  },
+  "Projects": {
+    "message": "Projects",
+    "description": "The text of the Projects"
+  },
+  "All-Projects": {
+    "message": "All Projects",
+    "description": "The text of the All-Projects"
+  },
+  "Add-Project": {
+    "message": "Add Project",
+    "description": "The text of the Add-Project"
+  },
+  "Project-Name": {
+    "message": "Project Name",
+    "description": "The text of the Project-Name"
+  },
+  "Project-Path": {
+    "message": "Project Path",
+    "description": "The text of the Project-Path"
+  },
+  "Project-Delete": {
+    "message": "Are you sure to delete this project?",
+    "description": "The text of the Project-Delete"
+  },
+  "Remove": {
+    "message": "Remove",
+    "description": "The text of the Remove"
+  },
+  "Can-Select": {
+    "message": "You can individually select the version of Node you want for your project.",
+    "description": "The text of the Can-Select"
+  },
+  "Had-File": {
+    "message": "A file will be added to the root of the project:",
+    "description": "The text of the Had-File"
+  },
+  "Load-Node": {
+    "message": ". The content is the version number of Node you choose. The version number of Node that is loaded as a global setting if this file is not added.",
+    "description": "The text of the Load-Node"
+  },
+  "Project-Select": {
+    "message": "Please select your project",
+    "description": "The text of the Project-Select"
+  },
+  "Whats-new": {
+    "message": "What's new",
+    "description": "The text of the Whats-new"
+  },
+  "Refresh-successful": {
+    "message": "Refresh successful",
+    "description": "The text of the Refresh-successful"
+  },
+  "Command-Tip-Project": {
+    "message": "Or you can also specify the nodejs version for your project through the command line:",
+    "description": "The text of the Command-Tip-Project"
+  },
+  "Command-tools-intro": {
+    "message": "Command tools intro",
+    "description": "The text of the Command-tools-intro"
+  },
+  "Migration-error": {
+    "message": "Please close all Node processes and restart the application to complete the update",
+    "description": "The text of the Migration-error"
+  }
+}
