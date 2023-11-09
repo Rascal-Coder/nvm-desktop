@@ -78,9 +78,6 @@ const electronHandler = {
   windowMinimize: () => {
     ipcRenderer.send('window:minimize');
   },
-  windowMaxmize: () => {
-    ipcRenderer.send('window:maximize');
-  },
   checkForUpdates: () =>
     ipcRenderer.invoke('check-for-updates') as Promise<UpdateInfo | null>,
   comfirmUpdate: () =>

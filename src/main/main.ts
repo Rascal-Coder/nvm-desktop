@@ -45,8 +45,6 @@ import { gt } from 'semver';
 import loadLocale from './locale';
 import { Themes } from '../types';
 
-const remote = require("@electron/remote/main");
-remote.initialize();
 import type { MenuItemConstructorOptions } from 'electron';
 let mainWindow: BrowserWindow | null = null,
   tray: Tray | null = null,
@@ -134,7 +132,6 @@ const createWindow = async (code?: number) => {
 
   mainWindow.loadURL(resolveHtmlPath('index.html'));
 
-  remote.enable(mainWindow.webContents);
 
   if (isDebug) mainWindow.webContents.openDevTools({ mode: 'undocked' });
 
@@ -340,15 +337,6 @@ Promise.resolve().then(() => {
     ipcMain.on('window:minimize', (_event) => {
       mainWindow && mainWindow.minimize();
     });
-    ipcMain.on('window:maximize', (_event) => {
-      console.log('_event'  ,_event);
-
-      if(mainWindow){
-        const isMaximized=mainWindow.isMaximized()
-        isMaximized ? mainWindow.restore() : mainWindow.maximize();
-        _event.reply('window:maximize-status', isMaximized);
-      }
-});
   }
 
   ipcMain.on('setting-data-get', (event) => {

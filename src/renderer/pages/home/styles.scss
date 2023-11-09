@@ -23,7 +23,7 @@
 
   &-header {
     position: relative;
-
+    height: 80px;
     &-bar {
       position: absolute;
       top: 8px;
@@ -31,9 +31,23 @@
       -webkit-app-region: no-drag;
     }
   }
-
+  &-logo{
+    position: absolute;
+    top: 8px;
+    left: 32px;
+  }
+  &-title{
+    position: absolute;
+    top: 40px;
+    left: 8px;
+    z-index: 9999;
+  }
   &-menu {
-    padding-left: 100px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     line-height: 40px;
     -webkit-app-region: drag;
     -webkit-user-select: none;
@@ -49,6 +63,12 @@
     }
   }
 
+  &-extra-win {
+    position: absolute;
+    top: 48px;
+    right: 12px;
+    -webkit-app-region: no-drag;
+  }
   &-extra {
     position: absolute;
     top: 8px;

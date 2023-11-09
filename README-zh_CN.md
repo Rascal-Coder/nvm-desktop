@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/1111mp/nvm-desktop/assets/31227919/67132758-8aa9-4b05-b987-18fdd5980936"/>
+  <img src="https://github.com/Rascal-Coder/nvm-desktop/assets/31227919/67132758-8aa9-4b05-b987-18fdd5980936"/>
 </div>
 
 # Node Version Manager Desktop
@@ -10,7 +10,7 @@
 
 智能（快速）识别正确 Node 引擎版本的功能由另一个项目：[nvmd-command](https://github.com/1111mp/nvmd-command) 提供支持，它是一个单一、快速的本机可执行文件，没有外部依赖项，使用 Rust 构建。
 
-[English](https://github.com/1111mp/nvm-desktop/blob/main/README.md) | 简体中文
+[English](https://github.com/Rascal-Coder/nvm-desktop/blob/main/README.md) | 简体中文
 
 ## 目录
 
@@ -31,8 +31,8 @@
 
 ## 截图
 
-<img width="1060" alt="image" src="https://github.com/1111mp/nvm-desktop/assets/31227919/45f4c613-2d17-4804-bc83-ac07260bc6c0">
-<img width="1048" alt="image" src="https://github.com/1111mp/nvm-desktop/assets/31227919/757525bc-489d-4611-b957-c780fa9bfab5">
+<img width="1060" alt="image" src="https://github.com/Rascal-Coder/nvm-desktop/assets/31227919/45f4c613-2d17-4804-bc83-ac07260bc6c0">
+<img width="1048" alt="image" src="https://github.com/Rascal-Coder/nvm-desktop/assets/31227919/757525bc-489d-4611-b957-c780fa9bfab5">
 
 ## 命令行工具
 
@@ -92,9 +92,9 @@ Please download new version of Node.js in nvm-desktop.
 
 您可以下载源代码并自行构建，或者从以下链接下载最新构建的版本：
 
-- [nvmd-desktop 下载页面 (GitHub release)](https://github.com/1111mp/nvm-desktop/releases)
+- [nvmd-desktop 下载页面 (GitHub release)](https://github.com/Rascal-Coder/nvm-desktop/releases)
 
-应用程序的自动检查更新功能目前仅支持 Windows 平台。如果您是 Macos 用户，请务必检查[最新版本](https://github.com/1111mp/nvm-desktop/releases)以获得最佳体验。
+应用程序的自动检查更新功能目前仅支持 Windows 平台。如果您是 Macos 用户，请务必检查[最新版本](https://github.com/Rascal-Coder/nvm-desktop/releases)以获得最佳体验。
 
 ## 卸载
 
@@ -170,7 +170,7 @@ Please download new version of Node.js in nvm-desktop.
 
 更多详情，请查看：[nvmd-command](https://github.com/1111mp/nvmd-command) 项目代码。
 
-<img width="1660" alt="image" src="https://github.com/1111mp/nvm-desktop/assets/31227919/ac8653c4-5b40-447f-b10c-557907d101df">
+<img width="1660" alt="image" src="https://github.com/Rascal-Coder/nvm-desktop/assets/31227919/ac8653c4-5b40-447f-b10c-557907d101df">
 
 在你项目的根目录下会添加一个文件：`.nvmdrc`，文件的内容为你在 `nvm-desktop` 界面中为该项目选择的 Node 引擎的版本号。`nvm-desktop` 检测此文件以识别你项目的 Node 版本。
 
@@ -185,7 +185,7 @@ Please download new version of Node.js in nvm-desktop.
 
 ### MacOS启动应用的问题
 
-由于没有Apple开发者帐户，因此无法在macOS平台上使用自动更新。 请始终检查[最新版本](https://github.com/1111mp/nvm-desktop/releases)以获得最佳体验。
+由于没有Apple开发者帐户，因此无法在macOS平台上使用自动更新。 请始终检查[最新版本](https://github.com/Rascal-Coder/nvm-desktop/releases)以获得最佳体验。
 
 > "File/App is damaged and cannot be opened. You should move it to Trash."
 
@@ -202,7 +202,7 @@ Please download new version of Node.js in nvm-desktop.
 1. 打开苹果菜单 > 系统设置
 2. 选择隐私和安全 > 开发者工具
 3. 单击 (+) 按钮并导航到损坏的应用程序所在的文件夹
-   ![WeChat68ceaf51af50a705d1cf9536d07cd2d3](https://github.com/1111mp/nvm-desktop/assets/31227919/612caeda-0ef8-4454-a742-4bb37220b975)
+   ![WeChat68ceaf51af50a705d1cf9536d07cd2d3](https://github.com/Rascal-Coder/nvm-desktop/assets/31227919/612caeda-0ef8-4454-a742-4bb37220b975)
 4. 选择该应用程序并单击“打开”。
 
 如果您在 Big Sur/Monterey/Catalina 上打开应用程序时遇到“应用程序已损坏且无法打开”的情况，请尝试以下步骤：
@@ -211,7 +211,7 @@ Please download new version of Node.js in nvm-desktop.
 2. 选择安全和隐私
 3. 点击黄色锁并输入密码以解锁首选项窗格
 4. 单击“仍然打开”
-   ![image](https://github.com/1111mp/nvm-desktop/assets/31227919/41ee3a65-bf34-437d-beea-03900704147b)
+   ![image](https://github.com/Rascal-Coder/nvm-desktop/assets/31227919/41ee3a65-bf34-437d-beea-03900704147b)
 
 #### 暂时禁用防火墙
 
@@ -247,4 +247,4 @@ xattr -d com.apple.quarantine file_path
 ```
 
 要执行此命令，请首先将 `xattr -d com.apple.quarantine` 复制并粘贴到终端，然后将文件或应用程序拖放到终端并按 Enter 键。
-![WeChatae77aab16d6d535b0b106128de0736f3](https://github.com/1111mp/nvm-desktop/assets/31227919/b9f804ca-1c8e-4bb2-9f6f-f43810c9ab70)
+![WeChatae77aab16d6d535b0b106128de0736f3](https://github.com/Rascal-Coder/nvm-desktop/assets/31227919/b9f804ca-1c8e-4bb2-9f6f-f43810c9ab70)

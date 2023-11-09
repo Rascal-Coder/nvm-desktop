@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/1111mp/nvm-desktop/assets/31227919/67132758-8aa9-4b05-b987-18fdd5980936"/>
+  <img src="https://github.com/Rascal-Coder/nvm-desktop/assets/31227919/67132758-8aa9-4b05-b987-18fdd5980936"/>
 </div>
 
 # Node Version Manager Desktop
@@ -10,7 +10,7 @@ Now you can individually select the version of Node you want for your project.
 
 The ability to intelligently identify the correct Node engine is powered by [nvmd-command](https://github.com/1111mp/nvmd-command). It’s a single, fast native executable, with no external dependencies, build with Rust.
 
-English | [简体中文](https://github.com/1111mp/nvm-desktop/blob/main/README-zh_CN.md)
+English | [简体中文](https://github.com/Rascal-Coder/nvm-desktop/blob/main/README-zh_CN.md)
 
 ## Table of Contents
 
@@ -31,8 +31,8 @@ English | [简体中文](https://github.com/1111mp/nvm-desktop/blob/main/README-
 
 ## Screenshot
 
-<img width="1060" alt="image" src="https://github.com/1111mp/nvm-desktop/assets/31227919/45f4c613-2d17-4804-bc83-ac07260bc6c0">
-<img width="1048" alt="image" src="https://github.com/1111mp/nvm-desktop/assets/31227919/757525bc-489d-4611-b957-c780fa9bfab5">
+<img width="1060" alt="image" src="https://github.com/Rascal-Coder/nvm-desktop/assets/31227919/45f4c613-2d17-4804-bc83-ac07260bc6c0">
+<img width="1048" alt="image" src="https://github.com/Rascal-Coder/nvm-desktop/assets/31227919/757525bc-489d-4611-b957-c780fa9bfab5">
 
 ## Command tools intro
 
@@ -92,9 +92,9 @@ For more details, please check document: [command-tools-intro](https://github.co
 
 You can download the source code and build it yourself, or download the built version from following links:
 
-- [nvmd-desktop Download Page (GitHub release)](https://github.com/1111mp/nvm-desktop/releases)
+- [nvmd-desktop Download Page (GitHub release)](https://github.com/Rascal-Coder/nvm-desktop/releases)
 
-The automatic update function of the application is currently only supported on the Windows platform. If you are a macOS user please always check the [latest version](https://github.com/1111mp/nvm-desktop/releases) for the best experience.
+The automatic update function of the application is currently only supported on the Windows platform. If you are a macOS user please always check the [latest version](https://github.com/Rascal-Coder/nvm-desktop/releases) for the best experience.
 
 ## Uninstall
 
@@ -170,7 +170,7 @@ This feature is enabled by `nvmd-command` support.
 
 For more details, please check the [nvmd-command](https://github.com/1111mp/nvmd-command) project.
 
-<img width="1660" alt="image" src="https://github.com/1111mp/nvm-desktop/assets/31227919/ac8653c4-5b40-447f-b10c-557907d101df">
+<img width="1660" alt="image" src="https://github.com/Rascal-Coder/nvm-desktop/assets/31227919/ac8653c4-5b40-447f-b10c-557907d101df">
 
 A file will be added to the root of the project: `.nvmdrc`, the content is the version number of Node you choose. `nvm-desktop` detects this file to identify the Node version for your project.
 
@@ -195,7 +195,7 @@ If you are using `VS Code` and launch your project with `Debug`, then you should
 
 ### MacOS issues
 
-Because there is no Apple developer account, automatic updates cannot be used on the macOS platform. Please always check the [latest version](https://github.com/1111mp/nvm-desktop/releases) for the best experience.
+Because there is no Apple developer account, automatic updates cannot be used on the macOS platform. Please always check the [latest version](https://github.com/Rascal-Coder/nvm-desktop/releases) for the best experience.
 
 > "File/App is damaged and cannot be opened. You should move it to Trash."
 
@@ -210,7 +210,7 @@ If you are experiencing "App is damaged and cannot be opened" on macOS Ventura, 
 1. Open the Apple menu > System Settings.
 2. Select Privacy & Security > Developer Tools.
 3. Click the ( + ) button and navigate to the folder where the damaged app resides.
-   ![WeChat68ceaf51af50a705d1cf9536d07cd2d3](https://github.com/1111mp/nvm-desktop/assets/31227919/612caeda-0ef8-4454-a742-4bb37220b975)
+   ![WeChat68ceaf51af50a705d1cf9536d07cd2d3](https://github.com/Rascal-Coder/nvm-desktop/assets/31227919/612caeda-0ef8-4454-a742-4bb37220b975)
 4. Select the app and click Open.
 
 If you are encountering "Application is damaged and cannot be opened" on Big Sur/Monterey/Catalina when opening an app, try these steps:
@@ -219,7 +219,7 @@ If you are encountering "Application is damaged and cannot be opened" on Big Sur
 2. Select Security & Privacy.
 3. Tap the yellow lock and enter your password to unlock the preference pane.
 4. Click "Open Anyway."
-   ![image](https://github.com/1111mp/nvm-desktop/assets/31227919/41ee3a65-bf34-437d-beea-03900704147b)
+   ![image](https://github.com/Rascal-Coder/nvm-desktop/assets/31227919/41ee3a65-bf34-437d-beea-03900704147b)
 
 #### Temporarily disable Gatekeeper
 

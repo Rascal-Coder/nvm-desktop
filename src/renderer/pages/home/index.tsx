@@ -2,24 +2,20 @@ import './styles.scss';
 
 import { useState, useRef, lazy, Suspense, useEffect } from 'react';
 import { Outlet, Link, useLocation } from 'react-router-dom';
-import { App, Button, Layout, Menu, Space, Tour, Typography } from 'antd';
+import { App, Button, Layout, Menu, Space, Tour, Typography,Avatar } from 'antd';
 import {
   InfoCircleOutlined,
   SettingOutlined,
   SmileTwoTone,
   CloseOutlined,
   MinusOutlined,
-  BorderOutlined,
-  BlockOutlined
 } from '@ant-design/icons';
 import { Updater } from './updater';
 import { useI18n, useAppContext } from 'renderer/appContext';
 import type { TourProps } from 'antd';
 import type { Ref as TipRef } from './tip';
 import type { Ref as SettingRef } from './tip';
-import {getCurrentWindow} from "@electron/remote";
-const mainWindow = getCurrentWindow()
-
+import headerLogo from "./icon.png"
 const Tip = lazy(() => import('./tip'));
 const Setting = lazy(() => import('./setting'));
 const { Content } = Layout;
@@ -320,6 +316,8 @@ const Home: React.FC = () => {
       <Layout className="module-home">
         <Content>
           <div className="module-home-header">
+          {platform === 'win32' ? <Avatar className="module-home-logo" src={<img src={headerLogo} alt="logo"/>}></Avatar> : null}
+          {platform === 'win32' ? <div className="module-home-title">NVM-Desktop</div> : null}
             <Menu
               mode="horizontal"
               className="module-home-menu"
@@ -343,7 +341,9 @@ const Home: React.FC = () => {
                 },
               ]}
             />
-            <Space size={4} className="module-home-extra">
+            {/* extra */}
+            {
+              platform === 'win32' ?(<Space size={4} className="module-home-extra-win">
               <Button
                 ref={tip}
                 type="text"
@@ -366,7 +366,32 @@ const Home: React.FC = () => {
                   settingDrawer.current?.show();
                 }}
               />
-            </Space>
+            </Space>) :(<Space size={4} className="module-home-extra">
+              <Button
+                ref={tip}
+                type="text"
+                size="small"
+                title={i18n('Tip')}
+                className="module-home-btn"
+                icon={<InfoCircleOutlined />}
+                onClick={() => {
+                  tipDrawer.current?.show();
+                }}
+              />
+              <Button
+                type="text"
+                size="small"
+                title={i18n('Setting')}
+                className="module-home-btn"
+                icon={<SettingOutlined />}
+                onClick={() => {
+                  settingDrawer.current?.show();
+                }}
+              />
+            </Space>)
+            }
+
+            {/* actions mini close */}
             {platform === 'win32' ? (
               <Space className="module-home-header-bar">
                 <Button
@@ -375,14 +400,6 @@ const Home: React.FC = () => {
                   icon={<MinusOutlined />}
                   onClick={() => {
                     window.Context.windowMinimize();
-                  }}
-                />
-                <Button
-                  size="small"
-                  type="text"
-                  icon={<BlockOutlined />}
-                  onClick={() => {
-                    window.Context.windowMaxmize();
                   }}
                 />
                   <Button
